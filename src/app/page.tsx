@@ -2,8 +2,8 @@
 
 import styles from "./page.module.css";
 import {MutableRefObject, useEffect, useLayoutEffect, useRef} from "react";
-import {setupP5} from "../../p5/main";
 import p5 from "p5";
+import { setupP5 } from "@/p5/main";
 
 export default function Home() {
     const p5canvasContainer: MutableRefObject<null | HTMLDivElement> = useRef(null)
